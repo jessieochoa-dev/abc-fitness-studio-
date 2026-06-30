@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | ABC Fitness Studio</title>
+<meta name="description" content="Browse ABC Fitness Studio's classes and equipment, and add items to your cart to place a custom order.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="ABC Fitness Studio home">
+      <img src="images/logo.svg" alt="ABC Fitness Studio logo">
+    </a>
+    <p class="page-title">Gallery</p>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html">Community</a></li>
+      </ul>
+    </nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <button class="header-cart-btn js-open-cart" type="button" aria-label="View shopping cart, 0 items">
+        🛒 Cart <span class="cart-count">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <section style="padding-bottom: 0;">
+    <div class="container">
+      <div class="gallery-toolbar">
+        <div>
+          <span class="eyebrow">Classes &amp; equipment</span>
+          <h1 style="margin-bottom:0;">Gallery</h1>
+        </div>
+        <button class="view-cart-btn js-open-cart" type="button" aria-label="View shopping cart, 0 items">
+          🛒 View Cart <span class="cart-count">0</span>
+        </button>
+      </div>
+      <p class="lead" style="max-width:640px;">Explore classes and gear. Just click "Add to Cart" and check out when you're ready.</p>
+    </div>
+  </section>
+
+  <!-- ===================== 3x3 IMAGE GRID WITH ADD TO CART ===================== -->
+  <section>
+    <div class="container">
+      <div class="gallery-grid">
+
+        <article class="gallery-card">
+          <img src="images/Client2_GroupYoga.png" alt="Group yoga class session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Group Yoga Class</h3>
+            <p class="price">$15.00 / drop-in</p>
+            <p>A calming, all-levels group session focused on breath, flexibility, and mindful movement.</p>
+            <button class="add-to-cart-btn" data-name="Group Yoga Class" data-price="15.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_IndividualYoga.png" alt="Individual private yoga session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Private Yoga Session</h3>
+            <p class="price">$45.00 / session</p>
+            <p>One-on-one yoga instruction tailored to your goals and experience level.</p>
+            <button class="add-to-cart-btn" data-name="Private Yoga Session" data-price="45.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_GroupPilates.png" alt="Group Pilates class session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Group Pilates Class</h3>
+            <p class="price">$18.00 / drop-in</p>
+            <p>Core-strengthening, low-impact Pilates in a supportive group setting.</p>
+            <button class="add-to-cart-btn" data-name="Group Pilates Class" data-price="18.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_IndividualPilates.png" alt="Individual private Pilates session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Private Pilates Session</h3>
+            <p class="price">$50.00 / session</p>
+            <p>Personalized Pilates training focused on form, core strength, and posture.</p>
+            <button class="add-to-cart-btn" data-name="Private Pilates Session" data-price="50.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_GroupKickboxing.png" alt="Group kickboxing class session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Group Kickboxing Class</h3>
+            <p class="price">$20.00 / drop-in</p>
+            <p>High-energy cardio kickboxing for strength, stamina, and stress relief.</p>
+            <button class="add-to-cart-btn" data-name="Group Kickboxing Class" data-price="20.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_IndividualKickboxing.png" alt="Individual private kickboxing session" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Private Kickboxing Session</h3>
+            <p class="price">$55.00 / session</p>
+            <p>One-on-one kickboxing coaching with technique and conditioning focus.</p>
+            <button class="add-to-cart-btn" data-name="Private Kickboxing Session" data-price="55.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_YogaMat.png" alt="ABC Fitness Studio branded yoga mat" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Studio Yoga Mat</h3>
+            <p class="price">$32.00</p>
+            <p>Durable, non-slip yoga mat with the ABC Fitness Studio logo.</p>
+            <button class="add-to-cart-btn" data-name="Studio Yoga Mat" data-price="32.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_WaterBottle.png" alt="ABC Fitness Studio branded water bottle" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Studio Water Bottle</h3>
+            <p class="price">$18.00</p>
+            <p>Insulated, reusable water bottle to keep you refreshed during class.</p>
+            <button class="add-to-cart-btn" data-name="Studio Water Bottle" data-price="18.00">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/Client2_TeeShirt.png" alt="ABC Fitness Studio branded tee shirt" width="500" height="281">
+          <div class="gallery-body">
+            <h3>Studio Tee Shirt</h3>
+            <p class="price">$22.00</p>
+            <p>Soft, breathable studio tee&mdash;available in a range of sizes.</p>
+            <button class="add-to-cart-btn" data-name="Studio Tee Shirt" data-price="22.00">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- ===================== CATALOG TABLE ===================== -->
+      <div class="catalog-table-wrap">
+        <table class="catalog-table">
+          <caption>Full Item &amp; Service Catalog</caption>
+          <thead>
+            <tr>
+              <th scope="col">Item / Service</th>
+              <th scope="col">Category</th>
+              <th scope="col">Format</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Group Yoga Class</td><td>Yoga</td><td>Group, drop-in</td><td>$15.00</td></tr>
+            <tr><td>Private Yoga Session</td><td>Yoga</td><td>1-on-1</td><td>$45.00</td></tr>
+            <tr><td>Group Pilates Class</td><td>Pilates</td><td>Group, drop-in</td><td>$18.00</td></tr>
+            <tr><td>Private Pilates Session</td><td>Pilates</td><td>1-on-1</td><td>$50.00</td></tr>
+            <tr><td>Group Kickboxing Class</td><td>Kickboxing</td><td>Group, drop-in</td><td>$20.00</td></tr>
+            <tr><td>Private Kickboxing Session</td><td>Kickboxing</td><td>1-on-1</td><td>$55.00</td></tr>
+            <tr><td>Studio Yoga Mat</td><td>Equipment</td><td>Retail item</td><td>$32.00</td></tr>
+            <tr><td>Studio Water Bottle</td><td>Accessories</td><td>Retail item</td><td>$18.00</td></tr>
+            <tr><td>Studio Tee Shirt</td><td>Apparel</td><td>Retail item</td><td>$22.00</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <img src="images/logo.svg" alt="ABC Fitness Studio logo" style="height:38px; filter: brightness(0) invert(1); margin-bottom:14px;">
+        <p>Yoga, Pilates, and Zumba — built around balance, harmony, and active living.</p>
+        <div class="social-links">
+          <a href="https://facebook.com" aria-label="ABC Fitness Studio on Facebook" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z"/></svg>
+          </a>
+          <a href="https://instagram.com" aria-label="ABC Fitness Studio on Instagram" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 2 .3 2.6.5.7.3 1.2.6 1.7 1.1.5.5.9 1 1.1 1.7.2.6.4 1.4.5 2.6.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 2-.5 2.6-.3.7-.6 1.2-1.1 1.7-.5.5-1 .9-1.7 1.1-.6.2-1.4.4-2.6.5-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-2-.3-2.6-.5-.7-.3-1.2-.6-1.7-1.1-.5-.5-.9-1-1.1-1.7-.2-.6-.4-1.4-.5-2.6C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-2 .5-2.6.3-.7.6-1.2 1.1-1.7.5-.5 1-.9 1.7-1.1.6-.2 1.4-.4 2.6-.5C9.4 2.2 9.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-2 .4-.5.2-.8.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.3 1-.4 2-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.6.4 2 .2.5.4.8.8 1.2.4.4.7.6 1.2.8.4.2 1 .3 2 .4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 2-.4.5-.2.8-.4 1.2-.8.4-.4.6-.7.8-1.2.2-.4.3-1 .4-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.4-2-.2-.5-.4-.8-.8-1.2-.4-.4-.7-.6-1.2-.8-.4-.2-1-.3-2-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 1.8a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm5.7-2.9a1 1 0 1 1-2.1 0 1 1 0 0 1 2.1 0Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>555 Sophia Learning Street<br>Minneapolis, MN, USA</li>
+          <li><a href="tel:+15555555555">(555) 555-5555</a></li>
+          <li><a href="about.html#hours">Studio hours</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <form class="newsletter-form" id="newsletterForm">
+          <label for="newsletterEmail" class="visually-hidden">Email address</label>
+          <input type="email" id="newsletterEmail" name="newsletterEmail" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter-msg" id="newsletterMsg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ABC Fitness Studio. All rights reserved.</p>
+      <p>Built for Intro to Web Dev.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== CART MODAL ===================== -->
+<div class="modal-overlay" id="cartModal" hidden role="dialog" aria-modal="true" aria-labelledby="cartModalTitle">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h2 id="cartModalTitle" style="margin:0;">Your Cart</h2>
+      <button class="modal-close" id="cartModalClose" aria-label="Close cart">&times;</button>
+    </div>
+    <p class="cart-empty-msg" id="cartEmptyMsg">Your cart is empty. Add an item below to get started.</p>
+    <ul id="cartItemsList"></ul>
+    <div class="cart-total-row"><span>Total</span><span id="cartTotalAmount">$0.00</span></div>
+    <div class="modal-actions">
+      <button class="btn btn-outline-dark" id="clearCartBtn" type="button">Clear Cart</button>
+      <button class="btn btn-primary" id="processOrderBtn" type="button">Process Order</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ALERT DIALOG (native <dialog>) ===================== -->
+<dialog id="alertDialog" style="border:none; border-radius:10px; padding:0; max-width:360px; width:90%;">
+  <div style="padding:24px;">
+    <p id="alertDialogMsg" style="margin:0 0 16px; font-weight:700; color:#001F3F;"></p>
+    <button id="alertDialogClose" class="btn btn-primary btn-sm" type="button">OK</button>
+  </div>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>

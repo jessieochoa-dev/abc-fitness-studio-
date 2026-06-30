@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">ABC Fitness Studio logo</title>
+  <g transform="translate(2,8)">
+    <circle cx="22" cy="22" r="21" fill="none" stroke="#001F3F" stroke-width="2.4"/>
+    <g fill="#001F3F">
+      <rect x="2" y="17" width="5" height="10" rx="1.4"/>
+      <rect x="8" y="13" width="4" height="18" rx="1.4"/>
+      <rect x="13" y="19.5" width="18" height="5" rx="1"/>
+      <rect x="32" y="13" width="4" height="18" rx="1.4"/>
+      <rect x="37" y="17" width="5" height="10" rx="1.4"/>
+    </g>
+  </g>
+  <text x="56" y="27" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#001F3F">ABC FITNESS</text>
+  <text x="56" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" letter-spacing="2" fill="#20458E">S T U D I O</text>
+</svg>
